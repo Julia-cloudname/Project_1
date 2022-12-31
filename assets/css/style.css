@@ -104,18 +104,18 @@ h1, h2 {
     text-transform: none;
     letter-spacing: 0.2px;
 
-    width: 200px;
-    height: 130px;
+    width: 500px;
+    height: 70px;
 
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
 
-    background-color: rgba(108,161,89, 0.7);
+    background-color: rgba(108,161,89, 0.8);
 
-    bottom: 340px;
-    right: 80px;
+    bottom: 570px;
+    right: 200px;
 
     position: absolute;
 
