@@ -7,8 +7,16 @@
 }
 
 body {
-    font-family: Playfair Display;
-    font-size: 400;
+    font-family: Domine;
+    font-size: 600;
     color: #4F5656;
+
+}
+
+/*headings and logo*/
+
+h1, h2 {
+    font-family: Playfair Display SC;
+    text-transform: uppercase;
 
 }
