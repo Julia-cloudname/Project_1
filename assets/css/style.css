@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Domine&family=Playfair+Display+SC&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Domine;
+    font-family: Domine, serif;
     font-size: 600;
     color: #4F5656;
 
@@ -16,7 +16,7 @@ body {
 /*headings and logo*/
 
 h1, h2 {
-    font-family: Playfair Display SC;
+    font-family: Playfair Display;
     text-transform: uppercase;
     letter-spacing: 0.2px;
     color: #6CA159;
@@ -60,11 +60,18 @@ h1, h2 {
     border-bottom: 1px solid #4F5656;
 }
 
+/*hero image and cover text*/
+
 #hero-outer {
     height: 700px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
 }
 
 #hero-image {
@@ -72,13 +79,11 @@ h1, h2 {
     width: 100%;
     background: url(../images/Main-picture.png) no-repeat center center;
 
-    /* animates zoom effect on loading page */
+ /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-
-
 
 
 /* creating animation of main photo */
@@ -91,4 +96,26 @@ h1, h2 {
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 200%;
+    font-family: Berkshire Swash, serif;
+    text-transform: none;
+    letter-spacing: 0.2px;
+
+    width: 400px;
+    height: 100px;
+
+    padding-top: 15px;
+    padding-left: 10px;
+    text-align: center;
+
+    background-color: rgba(108,161,89, 0.7);
+
+    bottom: 540px;
+    right: 100px;
+
+    position: absolute;
+
 }
