@@ -99,21 +99,22 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 200%;
+    font-size: 150%;
     font-family: Berkshire Swash, serif;
     text-transform: none;
     letter-spacing: 0.2px;
 
-    width: 400px;
-    height: 100px;
+    width: 200px;
+    height: 130px;
 
-    padding-top: 15px;
-    padding-left: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
 
     background-color: rgba(108,161,89, 0.7);
 
-    bottom: 540px;
+    bottom: 340px;
     right: 100px;
 
     position: absolute;
