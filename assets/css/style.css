@@ -18,5 +18,12 @@ body {
 h1, h2 {
     font-family: Playfair Display SC;
     text-transform: uppercase;
+    letter-spacing: 0.2px;
+    color: #6CA159;
 
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
 }
