@@ -26,4 +26,32 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 200%;
+
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 0.2px;
+}
+
+#menu #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none; 
+    color: #6CA159;
+}
+
+#menu a:hover {
+    color: #4F5656;
+    border-bottom: 1px solid #4F5656;
 }
