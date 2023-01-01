@@ -213,7 +213,7 @@ footer p {
 }
 
 #footer-nav {
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 110%;
     letter-spacing: 0.2px;
     
@@ -229,11 +229,32 @@ footer p {
 
 .social-networks i {
     font-size: 180%;
-    margin: 1%;
+    margin: 0.5%;
     margin-bottom: 0.5px;
 
     padding: 2%;
     color: #FAECEC;
 }
 
+/*gallery*/
 
+.photos {
+    clear: both;
+    line-height: 3px;
+    column-count: 3;
+    column-gap: 5px;
+    
+    
+}
+
+.photos > img {
+    width: 100%;
+}
+
+#gallery-header {
+    clear: both; 
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+     
+}
