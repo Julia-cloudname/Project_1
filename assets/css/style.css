@@ -203,7 +203,7 @@ hr {
 /*footer*/
 
 footer {
-    height: 300px;
+    height: 200px;
     background-color: #6CA159;
 }
 
@@ -212,8 +212,8 @@ footer p {
     color: #FAECEC;
 }
 
-#find-us-footer {
-    padding-top: 50px;
+#footer-nav {
+    padding-top: 20px;
     font-size: 110%;
     letter-spacing: 0.2px;
     
@@ -230,9 +230,10 @@ footer p {
 .social-networks i {
     font-size: 180%;
     margin: 1%;
-    margin-top: 20px;
+    margin-bottom: 0.5px;
 
-    padding: 3%;
+    padding: 2%;
     color: #FAECEC;
 }
+
 
