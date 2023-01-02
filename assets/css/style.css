@@ -27,8 +27,8 @@ h1, h2 {
     float: left;
     font-size: 200%;
     margin-left: 150px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
 }
 
@@ -38,6 +38,7 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 0.2px;
     margin-right: 100px;
+    
     
 }
 
@@ -50,9 +51,8 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 10px;
-    
 }
 
 #menu a {
@@ -69,6 +69,49 @@ h1, h2 {
     border-bottom: 1px solid #4F5656;
 }
 
+/*dropdown-buttom for sign up*/
+
+.dropdown-buttom {
+    background-color: #6CA159;
+    color: white;
+    font-family: Domine, serif;
+    font-size: 110%;
+    letter-spacing: 0.2px;
+    padding: 12px;
+    text-align: center;
+    border: none;
+  }
+
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+    margin-top: 12px;
+    float: right;
+  }
+
+  .dropdown-text {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 185px;
+    z-index: 1;
+  }
+
+  .dropdown-text a {
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-text a:hover {
+    background-color: #6CA159;
+}
+
+  .dropdown-menu:hover .dropdown-text {
+    display: block;
+}
+
+
 /*hero image and cover text*/
 
 #hero-outer {
@@ -76,6 +119,7 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    
 
 }
 
@@ -206,6 +250,30 @@ hr {
     border-radius: 50%;
 }
 
+
+
+/*gallery*/
+
+.photos {
+    clear: both;
+    column-count: 3;
+    column-gap: 5px;
+    
+}
+
+.photos > img {
+    width: 100%;
+    
+}
+
+#gallery-header {
+    clear: both; 
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+     
+}
+
 /*footer*/
 
 footer {
@@ -240,27 +308,4 @@ footer p {
 
     padding: 2%;
     color: #FAECEC;
-}
-
-/*gallery*/
-
-.photos {
-    clear: both;
-    column-count: 3;
-    column-gap: 5px;
-    
-    
-}
-
-.photos > img {
-    width: 100%;
-    
-}
-
-#gallery-header {
-    clear: both; 
-    text-align: center;
-    margin: 20px 0;
-    font-size: 200%;
-     
 }
