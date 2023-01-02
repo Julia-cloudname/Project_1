@@ -246,7 +246,6 @@ footer p {
 
 .photos {
     clear: both;
-    line-height: 4px;
     column-count: 3;
     column-gap: 5px;
     
