@@ -362,6 +362,13 @@ footer {
     
 }
 
+.form-section-fchldrn {
+    background-color:#FAECEC ;
+    color:#4F5656;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 /*placeholder color for different brousers*/
 input::placeholder { 
     color: rgb(255,250,250,0.6);
