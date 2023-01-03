@@ -281,11 +281,6 @@ footer {
     background-color: #6CA159;
 }
 
-footer p {
-    text-align: center;
-    color: #FAECEC;
-}
-
 #footer-nav {
     padding-top: 30px;
     font-size: 110%;
@@ -295,6 +290,7 @@ footer p {
 
 .social-networks {
     text-align: center;
+    color: #fff;
 }
 
 .social-networks > li {
@@ -304,20 +300,80 @@ footer p {
 .social-networks i {
     font-size: 180%;
     margin: 0.5%;
-    margin-bottom: 0.5px;
+    margin-bottom: 0.2px;
 
-    padding: 2%;
+    padding: 2.5%;
     color: #FAECEC;
 }
+
+/*Sign-up forms*/
 
 .form-section {
     clear: left;
     background: url("../images/santa_sign-up.jpeg");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 1000px;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 180px 10% 0 0;
+    color: #fff;
+    background-color: rgba(108,161,89, 0.8);
+    max-width: 300px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: #fff;
+    margin-bottom: 20px;
+} 
+
+.text-input {
+    background:transparent;
+    color:  #fff;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.text-input:hover  {
+    border-color: #4F5656;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-size: 120%;
+    background-color: #FAECEC;
+    color: #6CA159;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #4F5656;
+    color: #FAECEC;
+    
+}
+
+/*placeholder color for different brousers*/
+input::placeholder { 
+    color: rgb(255,250,250,0.6);
+    opacity: 1; 
+    padding-left: 10px;
+   
+}
+
+:-ms-input-placeholder { 
+    color: #FAECEC;
+}
+
+::-ms-input-placeholder { 
+    color: #FAECEC;
 }
