@@ -87,6 +87,7 @@ h1, h2 {
     display: inline-block;
     margin-top: 12px;
     float: right;
+    padding-right: 100px;
   }
 
   .dropdown-text {
@@ -433,6 +434,11 @@ input::placeholder {
 .contact-box h2 {
     color: #fff;
     margin-bottom: 20px;
+}
+
+.contact-box > p {
+    color: #fff;
+    margin-top: 30px;
 }
 
 #feedback {
