@@ -314,17 +314,19 @@ footer > p {
 
 /*Sign-up forms*/
 
-.form-section-cldrn {
+.form-section-chldrn {
     clear: left;
     background: url("../images/santa-sign-up-2.png");
     background-size: cover;
     background-position: center;
     height: 1000px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.form-section {
+.form-section-santa {
     clear: left;
-    background: url("../images/santa_sign-up.jpeg");
+    background: url("../images/santa_sign-up.png");
     background-size: cover;
     background-position: center;
     height: 1000px;
@@ -335,7 +337,7 @@ footer > p {
     margin: 180px 10% 0 0;
     color: #fff;
     background-color: rgba(108,161,89, 0.8);
-    max-width: 300px;
+    max-width: 400px;
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -354,6 +356,7 @@ footer > p {
     margin: 5px 0 20px 0;
     border: 1px solid #fff;
     border-radius: 2px;
+    
 }
 
 .text-input:hover  {
@@ -377,11 +380,13 @@ footer > p {
     
 }
 
-.form-section-fchldrn {
+.form-section-message {
     background-color:#FAECEC ;
     color:#4F5656;
     width: 100%;
     box-sizing: border-box;
+    block-size: 230px;
+    margin-bottom: 30px;
 }
 
 /*placeholder color for different brousers*/
@@ -398,4 +403,49 @@ input::placeholder {
 
 ::-ms-input-placeholder { 
     color: #FAECEC;
+}
+
+/*contacts*/
+
+#contact-section {
+    background: url("../images/contact-background.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    min-height: 800px;
+}
+
+.contact-container {
+    width: 1500px;
+    margin: 75px auto;
+}
+
+.contact-box {
+    margin: 180px 10% 0 0;
+    color: #fff;
+    background-color: rgba(108,161,89, 0.8);
+    max-width: 600px;
+    padding: 30px;
+}
+
+.contact-box h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#feedback {
+    width: 300px;
+    height: 600px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#google-map {
+    width: 1000px;
+    height: 600px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 160px;
 }
