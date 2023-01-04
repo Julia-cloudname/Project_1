@@ -281,6 +281,12 @@ footer {
     background-color: #6CA159;
 }
 
+footer > p {
+    text-align: center;
+    color: black;
+   
+} 
+
 #footer-nav {
     padding-top: 30px;
     font-size: 110%;
