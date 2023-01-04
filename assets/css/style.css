@@ -314,6 +314,14 @@ footer > p {
 
 /*Sign-up forms*/
 
+.form-section-cldrn {
+    clear: left;
+    background: url("../images/santa-sign-up-2.png");
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
 .form-section {
     clear: left;
     background: url("../images/santa_sign-up.jpeg");
@@ -321,6 +329,7 @@ footer > p {
     background-position: center;
     height: 1000px;
 }
+
 
 .signup-form {
     margin: 180px 10% 0 0;
