@@ -184,6 +184,7 @@ h1, h2 {
 
 #about-us {
     height: 700px;
+    line-height: 1.5 
 }
 
 #left-about {
@@ -222,7 +223,7 @@ hr {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    
     border: none;
 }
 .right-about-heading {
@@ -237,7 +238,7 @@ hr {
     text-align: right;
 }
 
-.right-about-heading {
+.right-about-heading p {
     text-align: right;
 }
 
@@ -512,14 +513,52 @@ input::placeholder {
 
 }
 
-#project-about {
+.project-about {
     position: static;
-    max-height: 500px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    
 }
-#project-about p {
+.project-about p {
     text-align: justify;
     margin-left: 120px;
     margin-right: 130px;
-    
+   
+}
+
+/*media queries*/
+
+/*For larger to medium screens size from 1200px wide and down*/
+
+@media screen and (max-width:1200px) {
+    #about-us {
+        background-color: yellow;
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+        
+        
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
 }
