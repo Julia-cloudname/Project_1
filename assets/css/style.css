@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: Domine, serif;
-    font-size: 600;
+    font-size: 16px;
     color: #4F5656;
 
 }
@@ -183,7 +183,7 @@ h1, h2 {
 /*about us*/
 
 #about-us {
-    height: 700;
+    height: 700px;
 }
 
 #left-about {
@@ -274,6 +274,7 @@ hr {
     clear: both;
     column-count: 3;
     column-gap: 5px;
+    margin-top: 20px;
     
 }
 
@@ -285,7 +286,6 @@ hr {
 #gallery-header {
     clear: both; 
     text-align: center;
-    margin: 20px 0;
     font-size: 200%;
      
 }
@@ -297,22 +297,32 @@ footer {
     background-color: #6CA159;
 }
 
-footer > p {
+footer p {
     text-align: center;
     color: black;
-   
+    
 } 
 
+#footer-autor {
+    padding-top: 10px;
+}
+
 #footer-nav {
-    padding-top: 30px;
+    
     font-size: 110%;
     letter-spacing: 0.2px;
+    padding-top: 20px;
+    padding-bottom: 2px;
     
 }
 
 .social-networks {
     text-align: center;
     color: #fff;
+    max-width: 1920px;
+    max-height: 70px;
+    padding-bottom: 30px;
+    padding-top: 0;
 }
 
 .social-networks > li {
@@ -436,17 +446,18 @@ input::placeholder {
 .contact-container {
     width: 1500px;
     height: 850px;
-    margin: 75px auto;
+    margin: 50px auto;
 }
 
 #contact-guide {
-    max-width: 800px;
+    max-width: 750px;
     max-height: 200px;
     text-align: justify;
-    margin-left: 280px;
+    margin-left: 330px;
     margin-right: 180px;
+    margin-top: 50px;
 }
-#contact-guide h1 {
+#contact-guide h2 {
     text-align: center;
     margin-bottom: 20px;
 }
