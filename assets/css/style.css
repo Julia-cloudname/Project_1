@@ -531,7 +531,6 @@ input::placeholder {
 
 @media screen and (max-width:1200px) {
     #about-us {
-        background-color: yellow;
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -544,8 +543,7 @@ input::placeholder {
     }
 
     #left-about, #right-about {
-        width: 100%;
-        float: left;
+        width: 85%;
         padding: 0;
         
         
