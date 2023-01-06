@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Domine&family=Playfair+Display+SC&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +16,7 @@ body {
     color: #4F5656;
 
 }
+
 
 /*headings and logo*/
 
@@ -120,8 +125,6 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
-    
-
 }
 
 #cover-text, #cover-text h2 {
@@ -151,6 +154,8 @@ h1, h2 {
         transform: scale(1.1);
     }
 }
+
+/*Covert text*/
 
 #cover-text {
     font-size: 150%;
@@ -212,6 +217,14 @@ hr {
     margin-bottom: 50px;
 }
 
+.left-about-heading p {
+    
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    border: none;
+}
 .right-about-heading {
     width: 80%;
     float: left;
@@ -233,6 +246,8 @@ hr {
     margin: 20px 0;
     font-size: 200%;
 }
+
+
 
 #circle-container {
     width: 300px;
@@ -454,4 +469,29 @@ input::placeholder {
     float: right;
     margin-top: 20px;
     margin-right: 160px;
+}
+
+#welcome p {
+    width: 80%;
+    float: left;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+}
+
+#project-about {
+    position: static;
+    max-height: 500px;
+    padding-bottom: 50px;
+}
+#project-about p {
+    text-align: justify;
+    margin-left: 120px;
+    margin-right: 130px;
+    
 }
