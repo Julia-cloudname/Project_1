@@ -380,7 +380,7 @@ footer > p {
 }
 
 .join-button {
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 2px;
     padding: 15px 30px 15px 30px;
     text-align: center;
@@ -401,8 +401,8 @@ footer > p {
     color:#4F5656;
     width: 100%;
     box-sizing: border-box;
-    block-size: 230px;
-    margin-bottom: 30px;
+    block-size: 130px;
+    margin-bottom: 0px;
 }
 
 /*placeholder color for different brousers*/
@@ -424,7 +424,7 @@ input::placeholder {
 /*contacts*/
 
 #contact-section {
-    background: url("../images/contact-background.png");
+    background: url("../images/background-contacts-1.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -435,15 +435,34 @@ input::placeholder {
 
 .contact-container {
     width: 1500px;
+    height: 850px;
     margin: 75px auto;
 }
 
+#contact-guide {
+    max-width: 800px;
+    max-height: 200px;
+    text-align: justify;
+    margin-left: 280px;
+    margin-right: 180px;
+}
+#contact-guide h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact-guide p {
+    margin-bottom: 30px;
+}
+
 .contact-box {
-    margin: 180px 10% 0 0;
+    margin: 50px 2% 0 0;
     color: #fff;
     background-color: rgba(108,161,89, 0.8);
-    max-width: 600px;
+    max-width: 400px;
     padding: 30px;
+    width: 400px;
+    height: 420px;
 }
 
 .contact-box h2 {
@@ -453,22 +472,20 @@ input::placeholder {
 
 .contact-box > p {
     color: #fff;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #feedback {
-    width: 300px;
-    height: 600px;
+    
     float: left;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 #google-map {
-    width: 1000px;
-    height: 600px;
+    
     float: right;
     margin-top: 20px;
-    margin-right: 160px;
+    margin-right: 300px;
 }
 
 #welcome p {
