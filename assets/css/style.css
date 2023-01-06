@@ -530,8 +530,33 @@ input::placeholder {
 /*For larger to medium screens size from 1200px wide and down*/
 
 @media screen and (max-width:1200px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        line-height: 25px;
+        
+    }
+
+    #menu li {
+        margin-top: 0;
+    }
+    .dropdown-menu {
+        clear: right;
+        float: right;
+        margin-top: 50px;
+        line-height: 25px;
+        padding-right: 100px;
+    }
+
+    #cover-text {
+        right: 195px;
+    }
+
     #about-us {
-        width: 65%;
+        width: 90%;
         height: 1200px;
         margin: 0 auto;
         
@@ -558,5 +583,27 @@ input::placeholder {
 
     hr {
         display: none;
+    }
+}
+
+/*for medium screen sizes from 950px wide and down*/
+
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 70px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 135px;
+        bottom: 530px;
+    }
+
+    #left-about, #right-about {
+        width: 80%;
+        padding: 0;   
     }
 }
