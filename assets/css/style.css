@@ -42,7 +42,7 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 0.2px;
-    margin-right: 100px;
+    margin-right: 6px;
     
     
 }
@@ -563,7 +563,6 @@ input::placeholder {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
-        
     }
 
     #welcome {
@@ -596,6 +595,18 @@ input::placeholder {
 /*for medium screen sizes from 950px wide and down*/
 
 @media screen and (max-width:950px) {
+
+    #about-us {
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .project-about p {
+        text-align: justify;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
    
 
     #cover-text {
@@ -624,9 +635,34 @@ input::placeholder {
         margin-bottom: 18px;
     }
 
-   
+}
+
+/*for medium screen sizes from 674px wide and down*/
+
+@media screen and (max-width:674px) {
+
+
+    #about-us {
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 
 }
 
+@media screen and (max-width:532px) {
 
+
+    .dropdown-menu {
+        margin-top: 0;
+        margin-right: 33%;
+    }
+
+    #menu {
+        margin-left: 14%;
+        margin-top: 3%;
+
+    }
+    
+}
 
