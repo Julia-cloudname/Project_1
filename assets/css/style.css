@@ -188,13 +188,13 @@ h1, h2 {
 }
 
 #left-about {
-    padding: 30px;
+    padding: 40px;
     width: 33%;
     float: left;
 }
 
 #right-about {
-    padding: 30px;
+    padding: 40px;
     width: 33%;
     float: right;
 }
@@ -324,6 +324,7 @@ footer p {
     max-height: 70px;
     padding-bottom: 30px;
     padding-top: 0;
+    
 }
 
 .social-networks > li {
@@ -520,12 +521,39 @@ input::placeholder {
 }
 .project-about p {
     text-align: justify;
-    margin-left: 120px;
-    margin-right: 130px;
+    margin-left: 128px;
+    margin-right: 128px;
+    padding: 10px;
    
 }
 
 /*media queries*/
+
+/*for big screen sizes from 3000px wide and down*/
+@media screen and (max-width:3000px) {
+    #cover-text  {
+        right: 20%;
+    }
+
+    #logo {
+        margin-left: 20%;
+    }
+
+    .social-networks {
+        padding-left: 13%;
+    }
+     
+}
+
+/*for big screen sizes from 1920px wide and down*/
+@media screen and (max-width:1920px) {
+    
+
+    .social-networks {
+        padding-left: 0;
+    }
+     
+}
 
 /*For larger to medium screens size from 1200px wide and down*/
 
@@ -596,6 +624,8 @@ input::placeholder {
 
 @media screen and (max-width:950px) {
 
+    
+
     #about-us {
         width: 100%;
         height: 1200px;
@@ -637,21 +667,14 @@ input::placeholder {
 
 }
 
-/*for medium screen sizes from 674px wide and down*/
-
-@media screen and (max-width:674px) {
+/*for medium screen sizes from 581px wide and down*/
 
 
-    #about-us {
-        width: 100%;
-        height: 1200px;
-        margin: 0 auto;
+@media screen and (max-width:581px) {
+
+    #logo {
+        margin-left: 25%;
     }
-
-}
-
-@media screen and (max-width:532px) {
-
 
     .dropdown-menu {
         margin-top: 0;
@@ -662,6 +685,29 @@ input::placeholder {
         margin-left: 14%;
         margin-top: 3%;
 
+    }
+    
+}
+
+/*for medium screen sizes from 479px wide and down*/
+@media screen and (max-width:479px) {
+
+    #logo {
+        margin-left: 25%;
+    }
+
+    .dropdown-menu {
+        margin-top: 0;
+        margin-right: 25%;
+    }
+
+    #menu {
+        margin-left: 11%;
+        margin-top: 3%;
+    }
+
+    #menu li {
+        margin-right: 15px;
     }
     
 }
