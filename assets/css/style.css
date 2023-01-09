@@ -567,6 +567,15 @@ input::placeholder {
 
 @media screen and (max-width:1200px) {
 
+    #cover-text {
+        height: 43px;
+        padding-top: 1%;
+        font-size: 120%;
+        width: fit-content;
+        left: 0;
+        bottom: 5%;
+    }
+
     #menu {
         clear: left;
         float: left;
@@ -589,13 +598,6 @@ input::placeholder {
 
     .dropdown-text {
         min-width: 0;
-    }
-
-    #cover-text {
-        width: 355px;
-        height: 80px;
-        bottom: 60px;
-        left: 0;
     }
 
     #about-us {
@@ -655,12 +657,6 @@ input::placeholder {
 /*for medium screen sizes from 950px wide and down*/
 
 @media screen and (max-width:950px) {
-
-    #cover-text {
-        width: none;
-        height: 43px;
-        padding-top: 1%;
-    }
 
     #about-us {
         width: 100%;
@@ -727,13 +723,20 @@ input::placeholder {
 
 @media screen and (max-width:615px) {
 
+    #cover-text {
+        font-size: 100%;
+        height: fit-content;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
     #logo {
         margin-left: 25%;
     }
 
     .dropdown-menu {
         margin-top: 0;
-        margin-right: 33%;
+        margin-right: 38%;
     }
 
     #menu {
@@ -761,13 +764,17 @@ input::placeholder {
 /*for medium screen sizes from 505px wide and down*/
 @media screen and (max-width:505px) {
 
+    #cover-text {
+        font-size: 80%;
+    }
+
     #logo {
         margin-left: 25%;
     }
 
     .dropdown-menu {
-        margin-top: 0;
-        margin-right: 25%;
+       
+        margin-right: 30%;
     }
 
     #menu {
