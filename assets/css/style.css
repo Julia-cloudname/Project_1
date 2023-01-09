@@ -436,7 +436,7 @@ input::placeholder {
 /*contacts*/
 
 #contact-section {
-    background: url("../images/background-contacts-1.png");
+    background: url("../images/background-contacts-1.jpeg");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -485,7 +485,7 @@ input::placeholder {
 
 .contact-box > p {
     color: #fff;
-    margin-top: 10px;
+    margin-top: 90px;
 }
 
 #feedback {
@@ -531,9 +531,7 @@ input::placeholder {
 
 /*for big screen sizes from 3000px wide and down*/
 @media screen and (max-width:3000px) {
-    #cover-text  {
-        right: 20%;
-    }
+    
 
     #logo {
         margin-left: 20%;
@@ -618,6 +616,27 @@ input::placeholder {
     .left-about-heading h2, .right-about-heading h2 {
         margin-bottom: 18px;
     }
+
+    #contact-guide {
+        margin-left: 2%;
+        margin-right: 40%;
+        max-width: none;
+    }
+
+    #feedback {
+        margin-left: 25px;
+    }
+
+    #google-map {
+        margin-right: 600px;
+    }
+
+    .contact-box {
+        width: 290px;
+    }
+
+    
+   
 }
 
 /*for medium screen sizes from 950px wide and down*/
@@ -665,12 +684,37 @@ input::placeholder {
         margin-bottom: 18px;
     }
 
+    #contact-section {
+        height: 1315px;
+    }
+
+    .contact-container {
+        width: 1200px;
+    }
+
+    #contact-guide {
+        margin-left: 8%;
+        margin-right: 50%;
+       
+    }
+
+    #feedback {
+        margin-left: 140px;
+        
+    }
+
+    #google-map {
+        margin-right: 59%;
+    }
+
 }
 
-/*for medium screen sizes from 581px wide and down*/
 
 
-@media screen and (max-width:581px) {
+/*for medium screen sizes from 615px wide and down*/
+
+
+@media screen and (max-width:615px) {
 
     #logo {
         margin-left: 25%;
@@ -686,11 +730,25 @@ input::placeholder {
         margin-top: 3%;
 
     }
+
+    #contact-guide {
+        margin-left: 2%;
+        margin-right: 60%;
+    }
+
+    #feedback {
+        margin-left: 24px;
+        
+    }
+
+    #google-map {
+        margin-right: 69%;
+    }
     
 }
 
-/*for medium screen sizes from 479px wide and down*/
-@media screen and (max-width:479px) {
+/*for medium screen sizes from 505px wide and down*/
+@media screen and (max-width:505px) {
 
     #logo {
         margin-left: 25%;
@@ -708,6 +766,11 @@ input::placeholder {
 
     #menu li {
         margin-right: 15px;
+    }
+
+
+    #contact-guide {
+        margin-right: 70%;
     }
     
 }
