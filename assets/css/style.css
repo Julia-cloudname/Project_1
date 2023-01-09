@@ -121,7 +121,6 @@ h1, h2 {
 /*hero image and cover text*/
 
 #hero-outer {
-    height: 700px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -131,17 +130,19 @@ h1, h2 {
     color: #FAECEC;
 }
 
-#hero-image {
-    height: 700px;
-    width: 100%;
-    background: url(../images/Main-picture.png) no-repeat center center;
+.hero-image {
+    text-align: center;
 
  /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+.hero-image img {
 
+    max-width: 100%;
+    
+}
 
 /* creating animation of main photo */
 
@@ -173,7 +174,7 @@ h1, h2 {
 
     background-color: rgba(108,161,89, 0.8);
 
-    bottom: 570px;
+    bottom: 80%;
     right: 100px;
 
     position: absolute;
@@ -552,6 +553,15 @@ input::placeholder {
     }
      
 }
+/*for screen sizes from 1400px wide and down*/
+@media screen and (max-width:1400px) {
+    #cover-text {
+        bottom: 80%;
+    }
+}
+
+
+
 
 /*For larger to medium screens size from 1200px wide and down*/
 
@@ -582,7 +592,10 @@ input::placeholder {
     }
 
     #cover-text {
-        right: 195px;
+        width: 355px;
+        height: 80px;
+        bottom: 60px;
+        left: 0;
     }
 
     #about-us {
@@ -643,7 +656,11 @@ input::placeholder {
 
 @media screen and (max-width:950px) {
 
-    
+    #cover-text {
+        width: none;
+        height: 43px;
+        padding-top: 1%;
+    }
 
     #about-us {
         width: 100%;
@@ -655,12 +672,6 @@ input::placeholder {
         text-align: justify;
         margin-left: 50px;
         margin-right: 50px;
-    }
-   
-
-    #cover-text {
-        left: 135px;
-        bottom: 530px;
     }
 
     #left-about, #right-about {
