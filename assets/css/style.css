@@ -716,80 +716,86 @@ input::placeholder {
 
 }
 
-
-
 /*for medium screen sizes from 615px wide and down*/
-
 
 @media screen and (max-width:615px) {
 
-    #cover-text {
-        font-size: 100%;
-        height: fit-content;
-        padding-top: 1%;
-        padding-bottom: 1%;
-    }
-
     #logo {
-        margin-left: 25%;
+        float: right;
+        margin-right: 8%;
     }
-
-    .dropdown-menu {
-        margin-top: 0;
-        margin-right: 38%;
-    }
-
-    #menu {
-        margin-left: 14%;
-        margin-top: 3%;
-
-    }
-
-    #contact-guide {
-        margin-left: 2%;
-        margin-right: 60%;
-    }
-
-    #feedback {
-        margin-left: 24px;
-        
-    }
-
-    #google-map {
-        margin-right: 69%;
-    }
-    
-}
-
-/*for medium screen sizes from 505px wide and down*/
-@media screen and (max-width:505px) {
-
-    #cover-text {
-        font-size: 80%;
-    }
-
-    #logo {
-        margin-left: 25%;
-    }
-
-    .dropdown-menu {
-       
-        margin-right: 30%;
-    }
-
-    #menu {
-        margin-left: 11%;
-        margin-top: 3%;
-    }
-
     #menu li {
-        margin-right: 15px;
+        margin-right: 17px;
     }
 
-
-    #contact-guide {
-        margin-right: 70%;
+    #menu {
+        clear: both;
+        float: none;
+        font-size: 95%;
+        margin-left: 70px;
     }
-    
+
+    .dropdown-menu {
+        clear: both;
+        position: fixed;
+        margin-top: 0;
+        left: 2%;
+        margin-top: 0;
+        float: none;
+        width: 83%;
+    }
+
+    .dropdown-buttom {
+        font-size: 85%;
+    }
+
+    #cover-text {
+        font-size: 90%;
+    }
+
 }
+
+/*for medium screen sizes from 475px wide and down*/
+
+@media screen and (max-width:475px) {
+
+    .dropdown-menu {
+    clear: both;
+    right: 66%;
+    }
+
+}
+
+/*for medium screen sizes from 392px wide and down*/
+
+@media screen and (max-width:392px) {
+    #menu li {
+        float: none;
+        margin-left: 36%;
+        clear: both;
+        width: 100%;
+        text-align: right;
+}
+    }
+
+    #logo {
+        font-size: 140%;
+        margin-right: -28%;
+
+    }
+
+    #hero-outer {
+        width: 143%;
+    }
+
+    #about-us, .photos, footer{
+        width: 143%;
+    }
+
+    #gallery-header {
+        padding-left: 45%;
+    }
+}
+
+
 
