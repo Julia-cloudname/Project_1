@@ -775,7 +775,6 @@ input::placeholder {
         clear: both;
         width: 100%;
         text-align: right;
-}
     }
 
     #logo {
@@ -796,6 +795,9 @@ input::placeholder {
         padding-left: 45%;
     }
 }
+
+    
+
 
 
 
