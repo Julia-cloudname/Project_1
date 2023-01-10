@@ -439,7 +439,7 @@ input::placeholder {
 /*contacts*/
 
 #contact-section {
-    background: url("../images/background-contacts-1.jpeg");
+    background: url("../images/background-contacts-1.webp");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -537,7 +537,7 @@ input::placeholder {
     
 
     #logo {
-        margin-left: 20%;
+        margin-left: 10%;
     }
 
     .social-networks {
@@ -877,7 +877,7 @@ input::placeholder {
         height: 1315px;
         width: 145%;
     }
-    
+
     #menu li {
         float: none;
         margin-left: 36%;
