@@ -101,12 +101,14 @@ h1, h2 {
     background-color: #fff;
     min-width: 185px;
     z-index: 1;
+    
   }
 
   .dropdown-text a {
     padding: 12px 12px;
     text-decoration: none;
     display: block;
+    color: #4F5656;
   }
 
   .dropdown-text a:hover {
