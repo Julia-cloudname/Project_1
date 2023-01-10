@@ -446,6 +446,7 @@ input::placeholder {
     width: 100%;
     overflow: hidden;
     min-height: 800px;
+    height: 1150px;
 }
 
 .contact-container {
@@ -524,8 +525,8 @@ input::placeholder {
 }
 .project-about p {
     text-align: justify;
-    margin-left: 128px;
-    margin-right: 128px;
+    margin-left: 133px;
+    margin-right: 133px;
     padding: 10px;
    
 }
@@ -543,6 +544,10 @@ input::placeholder {
     .social-networks {
         padding-left: 13%;
     }
+
+    .dropdown-menu {
+        z-index: 1;
+    }
      
 }
 
@@ -554,12 +559,9 @@ input::placeholder {
 
 /*for big screen sizes from 1920px wide and down*/
 @media screen and (max-width:1920px) {
-    
-
     .social-networks {
         padding-left: 0;
-    }
-     
+    }  
 }
 /*for screen sizes from 1400px wide and down*/
 @media screen and (max-width:1400px) {
@@ -567,14 +569,12 @@ input::placeholder {
         bottom: 80%;
     }
 
-
 }
 
 
 /*For larger to medium screens size from 1280px wide and down*/
 
 @media screen and (max-width:1280px) {
-
     #cover-text {
         height: 43px;
         padding-top: 1%;
