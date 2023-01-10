@@ -265,7 +265,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../images/circle-image.png) no-repeat center center;
+    background: url(../images/circle-image.webp) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -347,7 +347,7 @@ footer p {
 
 .form-section-chldrn {
     clear: left;
-    background: url("../images/santa-sign-up-2.png");
+    background: url("../images/santa-sign-up-2.webp");
     background-size: cover;
     background-position: center;
     height: 1000px;
@@ -357,7 +357,7 @@ footer p {
 
 .form-section-santa {
     clear: left;
-    background: url("../images/santa_sign-up.png");
+    background: url("../images/santa_sign-up.webp");
     background-size: cover;
     background-position: center;
     height: 1000px;
