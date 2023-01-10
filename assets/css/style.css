@@ -350,7 +350,7 @@ footer p {
     background: url("../images/santa-sign-up-2.webp");
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    height: 1150px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -360,7 +360,7 @@ footer p {
     background: url("../images/santa_sign-up.webp");
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    height: 1150px;
 }
 
 
@@ -782,6 +782,17 @@ input::placeholder {
     #contact-guide {
         margin-left: 12%;
         margin-right: 59%;
+    }
+
+    .form-section-chldrn {
+        height: 1115px;
+        margin-top: 5%;
+    }
+
+    .form-section-santa {
+        
+        height: 1135px;
+        margin-top: 5%;
     }
 
 }
