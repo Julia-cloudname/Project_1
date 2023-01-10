@@ -546,6 +546,12 @@ input::placeholder {
      
 }
 
+/*for big screen sizes from 2560px wide and down*/
+@media screen and (max-width:2560px) {
+
+}
+
+
 /*for big screen sizes from 1920px wide and down*/
 @media screen and (max-width:1920px) {
     
@@ -560,14 +566,14 @@ input::placeholder {
     #cover-text {
         bottom: 80%;
     }
+
+
 }
 
 
+/*For larger to medium screens size from 1280px wide and down*/
 
-
-/*For larger to medium screens size from 1200px wide and down*/
-
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1280px) {
 
     #cover-text {
         height: 43px;
@@ -635,25 +641,44 @@ input::placeholder {
     }
 
     #contact-guide {
-        margin-left: 2%;
-        margin-right: 40%;
+        margin-left: 11%;
+        margin-right: 31%;
         max-width: none;
     }
 
     #feedback {
-        margin-left: 25px;
+        margin-left: 11%;
     }
 
     #google-map {
-        margin-right: 600px;
+        margin-right: 460px;
     }
 
     .contact-box {
-        width: 290px;
+        width: 355px;
+    }
+   
+}
+
+/*for medium screen sizes from 1100px wide and down*/
+
+@media screen and (max-width:1100px) {
+    .contact-box {
+        width: 300px;
     }
 
-    
-   
+    #feedback {
+        margin-left: 8%;
+    }
+
+    #google-map {
+        margin-right: 585px;
+    }
+
+    #contact-guide {
+        margin-right: 40%;
+    }
+
 }
 
 /*for medium screen sizes from 950px wide and down*/
@@ -702,18 +727,17 @@ input::placeholder {
     }
 
     #contact-guide {
-        margin-left: 8%;
-        margin-right: 50%;
-       
+        margin-left: 12%;
+        margin-right: 58%;
     }
 
     #feedback {
-        margin-left: 140px;
+        margin-left: 144px;
         
     }
 
     #google-map {
-        margin-right: 59%;
+        margin-right: 58%;
     }
 
 }
@@ -755,6 +779,29 @@ input::placeholder {
         font-size: 90%;
     }
 
+    #contact-guide {
+        margin-left: 12%;
+        margin-right: 59%;
+    }
+
+}
+
+/*for medium screen sizes from 550px wide and down*/
+@media screen and (max-width:550px) {
+
+    #contact-guide {
+        margin-left: 7%;
+        margin-right: 67%;
+    }
+
+    #feedback {
+        margin-left: 60px;
+    }
+
+    #google-map {
+        margin-right: 65%;
+    }
+
 }
 
 /*for medium screen sizes from 475px wide and down*/
@@ -766,11 +813,70 @@ input::placeholder {
     right: 66%;
     }
 
+    #contact-guide h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 120%;
+    }
+
+    #contact-guide {
+        margin-left: 4%;
+        margin-right: 67%;
+    }
+
+    #feedback {
+        margin-left: 36px;
+        font-size: 70%;
+    }
+
+    #google-map {
+        margin-right: 67%;
+        font-size: 70%;
+    }
+}
+
+/*for medium screen sizes from 415px wide and down*/
+
+@media screen and (max-width:415px) {
+    #contact-guide {
+        margin-left: 4%;
+        margin-right: 71%;
+        font-size: 80%;
+    }
+
+    #feedback {
+        margin-left: 53px;
+        font-size: 65%;
+    }
+
+    #google-map {
+        margin-right: 70%;
+        font-size: 65%;
+    }
+
+    .contact-box {
+        width: 248px;
+    }
+
+    iframe {
+        width: 200px;
+        height: 300px;
+    }
+
+    .contact-box > p {
+        margin-top: 23px;
+    }
+
 }
 
 /*for medium screen sizes from 392px wide and down*/
 
 @media screen and (max-width:392px) {
+
+    #contact-section {
+        height: 1315px;
+        width: 145%;
+    }
     #menu li {
         float: none;
         margin-left: 36%;
