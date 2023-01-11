@@ -28,10 +28,6 @@ The site will focus on two categories of users. The first is children who apply 
 1. [**Deployment**](#deployment)
 1. [**Tech**](#tech)
 1. [**Credits**](#credits)
-    * [**Honorable mentions**](#honorable-mentions)
-    * [**General reference**](#general-reference)
-    * [**Content**](#content)
-    * [**Media**](#media)
 
 ## **Planning stage**
 ### **Target Audiences:**
@@ -156,10 +152,20 @@ Results from Lighthouse testing:
 Online-testing: on site [bluetree.ai](https://bluetree.ai/screenfly/?u=https%3A//julia-cloudname.github.io/Project_1/index.html&a=9) 
 
 Manual testing: 
+
+Devices:
+
 - Apple MacBook Pro 2015 | 15.4"
 - Acer Aspire 7750Z | 17.3"
 - iPhone 8 Plus
 - Samsung Galaxy M20
+
+Browsers:
+
+- Chrom
+- Safari
+- Brave
+- Mozilla Firefox
 
 * Functionality - site behave as the user expects, sign-up forms and links work correctly
 
