@@ -1112,28 +1112,28 @@ input::placeholder {
     }
 
     #about-us, .photos, footer {
-        width: 118%;
+        width: 100%;
     }
 
     #gallery-header {
         font-size: 120%;
-            padding-left: 18%;
+        padding-left: 1%;
     }
 
     #contact-section {
-        width: 120%;
+        width: 100%;
     }
 
     #contact-guide {
-        width: 24%;
+        width: 21%;
     }
 
     #google-map {
-        margin-right: 76%;
+        margin-right: 77%;
     }
 
     #feedback {
-        margin-left: 36px;
+        margin-left: 26px;
     }
 
     .dropdown-text {
@@ -1144,10 +1144,38 @@ input::placeholder {
     #menu {
         margin-left: 25%;
     }
-
-    footer {
-    width: 120%;
 }
+
+/*for medium screen sizes from 280px wide and down*/
+@media screen and (max-width: 280px) {
+    #contact-section {
+        width: 100%;
+    }
+
+    #contact-guide {
+        width: 19%;
+    }
+
+    .contact-box {
+        width: 180px;
+    }
+
+    #feedback {
+        margin-left: 13px;
+    }
+
+    #google-map {
+        margin-right: 79%;
+    }
+
+    #about-us, .photos, footer {
+        width: 100%;
+    }
+
+    #footer-autor {
+        padding-top: 10px;
+        font-size: 83%;
+    }
 }
 
 /*for medium screen sizes from 250px wide and down*/
