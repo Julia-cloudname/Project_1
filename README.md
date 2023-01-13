@@ -167,7 +167,7 @@ Browsers:
 - Brave
 - Mozilla Firefox
 
-* Functionality - site behave as the user expects, sign-up forms and links work correctly
+* Functionality - during testing site on all available devices, I visit all pages. Site behave as the user expects, sign-up forms and links work correctly and links from footer on social pages open in a new tab. User can see result sign-up. 
 
 ## **Deployment**
 
