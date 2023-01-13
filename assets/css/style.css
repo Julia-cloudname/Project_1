@@ -1148,6 +1148,11 @@ input::placeholder {
 
 /*for medium screen sizes from 280px wide and down*/
 @media screen and (max-width: 280px) {
+
+    #hero-outer {
+        width: 100%;
+    }
+
     #contact-section {
         width: 100%;
     }
@@ -1175,6 +1180,11 @@ input::placeholder {
     #footer-autor {
         padding-top: 10px;
         font-size: 83%;
+    }
+
+    #circle-container {
+        width: 278px;
+        height: 278px;
     }
 }
 
